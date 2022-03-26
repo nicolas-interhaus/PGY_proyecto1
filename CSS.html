@@ -9,35 +9,28 @@
         * {
             margin: 0px;
             padding: 0px;
+            font-style: sans-serif;
         }
         .caja-arriba{
-            width: 98%;
+            width: 100%;
             margin: 0px;
             padding: 1%;
             background-color: crimson;
             text-align: center;
         }
-        .caja-izquierda{
-            width: 300px;
-            position: sticky;
-            height: 100px;
-            background-color: coral;
-
+        
+        .caja-izquierda {
+            position: relative;
+            display: inline-block;
+            height: 100%;
+        background-color: aquamarine;
         }
-        .caja-derecha{
-            width: 300px;
-            position: static;
-            height: 100px;
-            background-color: darksalmon;
-
+        .menu{
+            left: 0px;
+            width: 20%;
         }
-        .caja-pie{
-            width: 300px;
-            position: absolute;
-            height: 100px;
-            background-color: chocolate;
 
-        }
+        
 
     </style>
 </head>
@@ -46,9 +39,7 @@
     
     <div class="caja-izquierda">cajita misteriosa izquierda</div>
     
-    <div class="caja-derecha">cajita misteriosa derecha</div>
     
-    <div class="caja-pie">cajita misteriosa pie</div>
     
 
 </body>
