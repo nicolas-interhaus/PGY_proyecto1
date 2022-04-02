@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.columna{
+    height: 100vh;
+    background-color: rgba(53,53,53,1.00);
+    box-shadow: 2px 1px 5px 2px black;
+}
+
+.menu{
+    width: 15%;
+    float:left;
+    min-width: 130px;
+}
+.content {
+    width: 85%;
+    float: right;
+    min-width: 740px;
+}
+
+ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+.menu ul {
+	color: white;
+	list-style: none;
+	transition: color 0.15s;
+}
+
+.menu ul li {
+	margin: 10px 90px 0px 40px;
+	color: white;
+}
+
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	transition: color 0.15s;
+}
+
+.menu ul:hover li a{
+	color: grey;
+}
+
+.menu ul li a:hover {
+	color: white;
+}
+
+.content > div {
+    height: 25%;
+    width: 90%;
+    color: white;
+    box-shadow: 1px 2px 4px 2px black;
+    overflow:hidden;
+}
+.content > div h1, .content > div p {
+    padding: 10px 15% 20px 14%;
+
+}
+
+.content > div:nth-child(1){
+	    background-color: aqua;	  
+}
+
+.content > div:nth-child(2){
+	background-color: #D2D300;
+}
+
+.content > div:nth-child(3){
+    background-color:orange;
+}
+
+.content > div:nth-child(4){
+    background-color: red;
+}
