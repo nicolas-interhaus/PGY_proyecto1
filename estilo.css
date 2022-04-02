@@ -24,6 +24,10 @@
             background-color: coral;
 
         }
+        .cuerpo{
+            width: auto;
+            height: auto;
+        }
         .caja-derecha{
             width: 300px;
             position: static;
@@ -45,7 +49,7 @@
     <div class="caja-arriba">cajita misteriosa arriba</div>
     
     <div class="caja-izquierda">cajita misteriosa izquierda</div>
-    
+    <div class="cuerpo">cuerpo de la pagina</div>
     <div class="caja-derecha">cajita misteriosa derecha</div>
     
     <div class="caja-pie">cajita misteriosa pie</div>
